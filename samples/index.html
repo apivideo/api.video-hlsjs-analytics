@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <script src="https://unpkg.com/@api.video/hlsjs-player-analytics"></script>
+</head>
+
+<body>
+
+    <video id="video" controls width=640 height=480></video>
+    <script>
+        var video = document.getElementById('video');
+
+        var videoSrc = 'https://cdn.api.video/vod/vi5oDagRVJBSKHxSiPux5rYD/hls/manifest.m3u8';
+
+        if (Hls.isSupported()) {
+            var hls = new Hls();
+            new HlsJsApiVideoAnalytics(hls);
+            hls.loadSource(videoSrc);
+            hls.attachMedia(video);
+        } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+            video.src = videoSrc;
+        }
+    </script>
+
+</body>
+
+</html>
