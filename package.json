@@ -1,6 +1,6 @@
 {
   "name": "@api.video/hlsjs-player-analytics",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "api.video player analytics plugin for hls.js based players",
   "repository": {
     "type": "git",
@@ -40,7 +40,7 @@
     "webpack-cli": "^3.3.12"
   },
   "dependencies": {
-    "@api.video/player-analytics": "^1.0.3",
+    "@api.video/player-analytics": "^1.0.4",
     "@types/hls.js": "^0.13.3",
     "core-js": "^3.10.0",
     "url-polyfill": "^1.1.12"
