@@ -4,7 +4,7 @@
   "description": "api.video player analytics plugin for hls.js based players",
   "repository": {
     "type": "git",
-    "url": "git@github.com:apivideo/hlsjs-player-analytics.git"
+    "url": "git@github.com:apivideo/api.video-flutter-uploader.git"
   },
   "author": "api.video <ecosystem-team@api.video> (https://api.video/)",
   "license": "MIT",
