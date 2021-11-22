@@ -50,7 +50,7 @@ Include the module in your HTML file like so:
         var videoSrc = 'https://cdn.api.video/vod/vi5oDagRVJBSKHxSiPux5rYD/hls/manifest.m3u8';
         if (Hls.isSupported()) {
             var hls = new Hls();
-            new VideoElementApiVideoAnalytics(hls);
+            new HlsJsApiVideoAnalytics(hls);
             hls.loadSource(videoSrc);
             hls.attachMedia(video);
         }
@@ -85,7 +85,7 @@ Available options (`HlsJsApiVideoAnalyticsOptions`):
 ```javascript
 var hls = new Hls();
 
-new VideoElementApiVideoAnalytics(hls, {
+new HlsJsApiVideoAnalytics(hls, {
     sequence: {
         start: 10,
         end: 50

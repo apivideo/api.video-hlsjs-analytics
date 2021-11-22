@@ -1,6 +1,9 @@
 # Changelog
 All changes to this project will be documented in this file.
 
+## [1.0.5] - 2021-11-22
+- Bump player-analytics version
+
 ## [1.0.4] - 2021-06-30
 - Add dist/*
 
