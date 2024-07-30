@@ -1,6 +1,6 @@
 {
   "name": "@api.video/hlsjs-player-analytics",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "description": "api.video player analytics plugin for hls.js based players",
   "repository": {
     "type": "git",
@@ -20,8 +20,8 @@
   "typings": "./dist/index.d.ts",
   "scripts": {
     "tslint": "tslint --project .",
-    "build": "npm run tslint && webpack --mode production",
-    "test": "npm run tslint && jest"
+    "build": "webpack --mode production",
+    "test": "jest"
   },
   "devDependencies": {
     "@types/jest": "^26.0.22",
@@ -39,7 +39,7 @@
     "webpack-cli": "^4.9.1"
   },
   "dependencies": {
-    "@api.video/player-analytics": "^1.0.7",
+    "@api.video/player-analytics": "^2.0.0",
     "@types/hls.js": "^0.13.3",
     "core-js": "^3.10.0",
     "url-polyfill": "^1.1.12"

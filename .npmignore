@@ -5,3 +5,7 @@ node_modules
 test
 dist/test
 sample
+index.ts
+jest.config.js
+samples
+.github
